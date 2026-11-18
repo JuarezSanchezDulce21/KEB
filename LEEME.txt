@@ -1,0 +1,26 @@
+KEB - TIENDA EN LINEA (PROTOTIPO)
+=================================
+
+ARCHIVOS
+- index.html: página de inicio.
+- tienda.html: catálogo del kit KEB.
+- carrito.html: carrito de compras.
+- pago.html: formulario de datos y demostración del flujo de compra.
+- cuidados.html: guía general de cuidados.
+- estilo.css: estilos y diseño adaptable.
+- script.js: funciones del carrito y formulario.
+
+COMO ABRIR
+1. Extrae el archivo ZIP.
+2. Abre la carpeta KEB_tienda.
+3. Da doble clic en index.html o abre esa carpeta desde Visual Studio Code y usa Live Server.
+No requiere XAMPP, PHP ni base de datos para esta demostración.
+
+CAMBIAR EL PRECIO
+Abre script.js y modifica PRODUCTO_KEB.precio.
+También cambia el precio que aparece en tienda.html (elemento data-precio-producto) para que coincida.
+
+IMPORTANTE SOBRE LOS PAGOS
+Este proyecto es un prototipo front-end. El carrito funciona con localStorage del navegador y el formulario valida datos, pero NO cobra dinero, NO envía pedidos a un servidor y NO guarda pedidos en una base de datos.
+Para aceptar pagos reales se debe integrar una pasarela (por ejemplo Mercado Pago) con su SDK/API y un backend seguro. No se deben colocar claves secretas ni datos de tarjeta en JavaScript del navegador.
+El precio de $99 MXN es provisional y debe sustituirse por el precio real de KEB.
